@@ -1,4 +1,4 @@
-# MosquitoTracker
+# Mosquito APP
 
 An IoT solution for real-time mosquito detection and monitoring using Arduino and React.
 
