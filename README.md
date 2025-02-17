@@ -37,8 +37,20 @@ Arduino Sensor → LoRaWAN → Backend Server → WebSocket → React Frontend
 ## Getting Started
 1. Set up the Arduino device with the sensor
 2. Configure LoRaWAN connectivity
-3. Start the backend server
-4. Launch the React frontend application
+3. Start the backend server:
+```bash
+npm install
+npm install mqtt cors socket.io express
+node server.js
+```
+4. Launch the React frontend application:
+```bash
+cd mosquito-app-client
+npm install
+npm install -D tailwindcss
+npx tailwindcss init -p
+npm run dev
+```
 
 ## Contributors
 This project was developed as a collaborative effort, combining IoT hardware expertise with modern web development practices.
