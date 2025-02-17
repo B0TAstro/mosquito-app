@@ -31,7 +31,7 @@ const connectUrl = `${protocol}://${host}:${port}`;
 const mqttClient = mqtt.connect(connectUrl, {
     clientId,
     clean: true,
-    connectTimeout: 4000,
+    connectTimeout: 5000,
     username: process.env.MQTT_USER,
     password: process.env.MQTT_KEY,
 });
