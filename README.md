@@ -1,2 +1,45 @@
-# mosquito-app
-A react app that connect to an adrduino device to capture a maximun of mosquito
+# MosquitoTracker
+
+An IoT solution for real-time mosquito detection and monitoring using Arduino and React.
+
+## Overview
+
+MosquitoTracker is a collaborative project that combines hardware and software to detect and track mosquito presence. The system uses an Arduino-based sensor that communicates via LoRaWAN network to transmit detection data in real-time.
+
+## Technical Stack
+
+### Hardware
+- Arduino device with mosquito detection sensor
+- LoRaWAN module for data transmission
+
+### Backend
+- LoRaWAN protocol for IoT communication
+- WebSocket server for real-time data streaming
+- Data processing and management system
+
+### Frontend
+- React.js for user interface
+- Tailwind CSS for styling
+- WebSocket client for live data updates
+
+## Features
+- Real-time mosquito detection tracking
+- Live data visualization
+- Possibility of turning on a fan remotely via the app
+- Responsive dashboard interface
+- Seamless IoT integration
+
+## Architecture
+```
+Arduino Sensor → LoRaWAN → Backend Server → WebSocket → React Frontend
+```
+
+## Getting Started
+1. Set up the Arduino device with the sensor
+2. Configure LoRaWAN connectivity
+3. Start the backend server
+4. Launch the React frontend application
+
+## Contributors
+This project was developed as a collaborative effort, combining IoT hardware expertise with modern web development practices.
+
