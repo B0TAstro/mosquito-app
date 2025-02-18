@@ -4,7 +4,7 @@ An IoT solution for real-time mosquito detection and monitoring using Arduino an
 
 ## Overview
 
-MosquitoTracker is a collaborative project that combines hardware and software to detect and track mosquito presence. The system uses an Arduino-based sensor that communicates via LoRaWAN network to transmit detection data in real-time.
+Mosquito APP is a collaborative project that combines hardware and software to detect and track mosquito presence. The system uses an Arduino-based sensor that communicates via LoRaWAN network to transmit detection data in real-time.
 
 ## Technical Stack
 
